@@ -3,6 +3,7 @@ package com.snippet.snippet.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "snippets")
 public class Snippet {
 
     @Id
